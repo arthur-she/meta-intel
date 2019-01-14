@@ -20,7 +20,7 @@ PACKAGE_BEFORE_PN = "${PN}-benchmarks ${PN}-tests"
 SRC_URI[md5sum] = "04c1f10d6fd85e079271540b0ea786e9"
 SRC_URI[sha256sum] = "4d4b086c513bace5c23d0889de3f42ac3ebd3d968c64dedae6e28e006a499ad0"
 
-EXTRA_OECONF = "--disable-nouveau --disable-shader-debugger"
+EXTRA_OECONF = "--disable-nouveau --disable-shader-debugger --enable-chamelium"
 COMPATIBLE_HOST = "(x86_64.*|i.86.*|arm.*|aarch64).*-linux"
 COMPATIBLE_HOST_libc-musl_class-target = "null"
 
